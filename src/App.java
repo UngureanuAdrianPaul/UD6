@@ -14,8 +14,7 @@ public class App {
 
             } catch (InputMismatchException e) {
             } finally {
-                teclado.nextLine(); // LIMPIAMOS BUFFER PARA SALIR DEL BUCLE INFINITO
-
+                teclado.nextLine(); 
             }
 
         } while (tamano < 1 || tamano > 6);

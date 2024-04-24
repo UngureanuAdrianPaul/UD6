@@ -34,9 +34,7 @@ public class Amigo {
     }
 
     public void setTelefono(String telefono) {
-        // comprobar antes de introducir que es telefono valido
-        // tiene que tener 9 digitos numericos
-        // si no es correcto telefono = null
+       
         this.telefono = null;
         if (telefono != null) {
             if (telefono.length() == LONG_TELF) {
